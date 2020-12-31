@@ -1,0 +1,95 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+        html, body {
+            height: 100%;
+        }
+        body {
+            background-color: #999;
+            
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b5bdc8+0,828c95+36,28343b+100 */
+            background: #b5bdc8; /* Old browsers */
+            background: -moz-linear-gradient(top,  #b5bdc8 0%, #828c95 36%, #28343b 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top,  #b5bdc8 0%,#828c95 36%,#28343b 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom,  #b5bdc8 0%,#828c95 36%,#28343b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
+
+        }
+
+        .calculator {
+            background-color: #353535;
+            font-family: 'Share Tech Mono', monospace;
+            width: 300px;
+            padding: 15px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 5px 0 #a1a1a1,
+                        0 8px 10px rgba(0, 0, 0, 0.75);
+        }
+
+        .results {
+            background-color: #cecfac;
+            font-family: 'Share Tech Mono', monospace;
+            color: #3b3b3b;
+            width: 90%;
+            margin: 8px 0 20px 10px;
+            text-align: right;
+            height: 50px;
+            line-height: 50px;
+            font-size: 35px;
+            padding-right: 10px;
+            overflow: hidden;
+            box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.5),
+                        inset 0 2px 0 #a1a1a1;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            font-family: 'Share Tech Mono', monospace;
+            list-style: none;
+            background-color: teal;
+            padding: 10px;
+            width: 15%;
+            float: left;
+            color: white;
+            margin: 5px;
+            cursor: pointer;
+            font-size: 20px;
+            border-radius: 5px;
+            box-shadow: 0 5px 0 #1c9fb1,
+                        0 2px 0 #238b99;
+        }
+
+        ul li:active {
+            position: relative;
+            top: 5px;
+            box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        ul li:nth-child(16) {
+            height: 75px;
+            line-height: 75px;
+        }
+
+        ul li:last-child {
+            margin-top: -48px;
+            width: 65%;
+        }
+
+        .signature {
+            color: #fff;
+            font-size: 0.75rem;
+            text-align: right;
+            position: relative;
+            top: 4px;
+            right: 5px;
+            z-index: -1;
+        }
